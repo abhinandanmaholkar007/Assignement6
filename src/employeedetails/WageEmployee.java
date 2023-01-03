@@ -49,11 +49,11 @@ class Employee {
     }
 
 }
-//Creating main class
+
 public class WageEmployee{
     public static void main(String args[]) {
 
-        //Creating object of EmployeeDetails class
+        
         Employee emp = new Employee();
         //Setting values to the properties
         emp.setEmp_id(101);
@@ -63,6 +63,5 @@ public class WageEmployee{
         emp.setAddress("Pune");
         emp.setEmail("abhi123@gmail.com");
 
-        //Showing Employee details
         System.out.println(emp);
     }}
